@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "velvet",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

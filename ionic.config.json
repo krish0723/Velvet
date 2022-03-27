@@ -1,0 +1,8 @@
+{
+  "name": "velvet",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react",
+  "id": "ec62ddf1"
+}
