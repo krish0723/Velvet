@@ -1,0 +1,16 @@
+ion-menu-button {
+  font-size: 40px !important;
+  color: #fff
+}
+
+ion-card.wallet{
+    background-color: #002117;
+    border-radius: 20px;
+    --border-color: #ffffff;
+    border-width: 0px;
+    border-style:outset;
+}
+
+ion-header.transactions{
+    padding-top: 0px;
+}

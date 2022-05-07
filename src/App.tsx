@@ -2,7 +2,15 @@ import { IonApp, IonRouterOutlet, IonSplitPane, setupIonicReact } from '@ionic/r
 import { IonReactRouter } from '@ionic/react-router';
 import { Redirect, Route } from 'react-router-dom';
 import Menu from './components/Menu';
-import Page from './pages/Page';
+import PortfolioPage from './pages/PortfolioPage';
+import ProfilePage from './pages/ProfilePage';
+import WalletPage from './pages/WalletPage';
+import BankPage from './pages/BankPage';
+import HistoryPage from './pages/HistoryPage';
+import ForecastPage from './pages/ForecastPage';
+import IncomePage from './pages/IncomePage';
+import SpendingPage from './pages/SpendingPage';
+import InvestmentsPage from './pages/InvestmentsPage';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -33,10 +41,34 @@ const App: React.FC = () => {
           <Menu />
           <IonRouterOutlet id="main">
             <Route path="/" exact={true}>
-              <Redirect to="/page/Inbox" />
+              <Redirect to="/page/Portfolio" />
             </Route>
-            <Route path="/page/:name" exact={true}>
-              <Page />
+            <Route path="/page/Profile" exact={true}>
+              <ProfilePage />
+            </Route>
+            <Route path="/page/Portfolio" exact={true}>
+              <PortfolioPage />
+            </Route>
+            <Route path="/page/Wallet" exact={true}>
+              <WalletPage />
+            </Route>
+            <Route path="/page/Wallet/Income" exact={true} >
+              <IncomePage />
+            </Route>
+            <Route path="/page/Wallet/Spending" exact={true}>
+              <SpendingPage />
+            </Route>
+            <Route path="/page/Wallet/Investments" exact={true}>
+              <InvestmentsPage />
+            </Route>
+            <Route path="/page/Bank" exact={true}>
+              <BankPage />
+            </Route>
+            <Route path="/page/Forecast" exact={true}>
+              <ForecastPage />
+            </Route>
+            <Route path="/page/History" exact={true}>
+              <HistoryPage />
             </Route>
           </IonRouterOutlet>
         </IonSplitPane>
