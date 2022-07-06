@@ -50,28 +50,37 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+Velvet is an AI-powered stock trading & asset management application simplifying UX & bringing hedge-fund investing strategies to the people.
+Currently in development.
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+### This project aims to solve two problems, the first:
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+The average investor is given two choices.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+- Invest with a hedgefund (or similar organization) and give up granular control of your portfolio to the "finance guys".
 
-Use the `BLANK_README.md` to get started.
+- Invest in a self trading platform such as Robinhood, ETrade, Etc. and give up the financial experties and infrastructure that a hedgefund uses to generate alpha (HFT, FInanical Strategies, AI Modeling, Etc.)
+
+### The second
+
+Investors are people too – and nobody likes having a hundred finance apps on their phone just to see their personal finance health.
+
+- People need instant insight and analysis capabilities to be able to make personal finance decisions quickly and efficiently.
+
+- Customers should feel like they know everything about their personal finances in minutes - not wonder if they have enough money across their accounts to pay the credit bill this month.
+
+### Our Goal
+
+Provide users with the ability to easily monitor & analyze their personal finance while also being able to leverage quant and ai trading strategies to grow their investment portfolio.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
 
 
 ### Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
-* [![Next][Next.js]][Next-url]
+* [![Ionic][Next.js]][Next-url]
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
