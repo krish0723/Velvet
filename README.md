@@ -11,6 +11,7 @@
   <p align="center">
     AI Stock Trading & Financial Analysis Application
     <br />
+    <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Visit Portal »</strong></a>
     <br />
   </p>
